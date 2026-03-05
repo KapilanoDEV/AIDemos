@@ -8,10 +8,11 @@ The course is aimed at professionals looking to enhance their skills in AU Engin
 
 ### Main.java
 I want use Java code to communicate with the AI API. I do this by making HTTP calls purely using Java without requiring the OpenAI
-library.
+library. For some languages like Rust you have to use an HTTPClient as OpenAI have not provided an SDK for those languages. For Java they have so
+I will write an HTTP Client program and one using their SDK.
 
 
-I added the dependency to pom.xml but I am not going to use it for now.
+I added the dependency to pom.xml but I am not going to use it for the HTTP Client.
 
 ```
 <dependencies>
